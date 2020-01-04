@@ -1,0 +1,306 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+	
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"enablePullDownRefresh": true
+			}
+		}, 
+		
+	
+		{
+			"path": "pages/product/product",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleColor": "#fff",
+						"backgroundColor": "#007AFF",
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "\ue537",
+							"width": "40px",
+							"fontSize": "28px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)"
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "请输入产品名称",
+							"disabled": true
+						}
+					}
+				}
+				
+			}
+		}, {
+			"path": "pages/promote/promote",
+			"style": {
+				"navigationBarTitleText": "宣传品"
+			}
+		}, {
+			"path": "pages/promote/amount_add",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/promote/result",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "记录"
+			}
+		}, {
+			"path": "pages/record/detail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/activity/activity",
+			"style": {
+				"navigationBarTitleText": "活动"
+			}
+		}, {
+			"path": "pages/activity/detail",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/report/report",
+			"style": {
+				"navigationBarTitleText": "报表"
+			}
+		}, {
+			"path": "pages/product/docList",
+			"style": {
+				"navigationBarTitleText": "精选文案"
+			}
+		}, {
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "登录模板"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/pwd/pwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/user/point",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "我的资讯"
+			}
+		}, {
+			"path": "pages/user/announcement",
+			"style": {
+				"navigationBarTitleText": "我的公告"
+			}
+		}, {
+			"path": "pages/user/survey",
+			"style": {
+				"navigationBarTitleText": "我的调研"
+			}
+		}, {
+			"path": "pages/user/forum",
+			"style": {
+				"navigationBarTitleText": "我的社群"
+			}
+		}, {
+			"path": "pages/user/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}, {
+			"path": "pages/information/information",
+			"style": {
+				"navigationBarTitleText": "资讯"
+			}
+		}, {
+			"path": "pages/information/detail",
+			"style": {
+				"app-plus": {
+						"titleNView": {
+							"buttons": [{
+								"index":"0",
+								"type":"share"
+								},
+								{
+								"index":"1",
+								"type":"favorite"
+								}
+							]
+						}
+				}
+			}
+		}, {
+			"path": "pages/product/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"app-plus": {
+					"titleNView": {
+						"titleColor": "#fff",
+						"backgroundColor": "#007AFF",
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "\ue537",
+							"width": "auto",
+							"fontSize": "28px",
+							"color": "#fff"
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "请输入产品名称",
+							"autoFocus": true
+						}
+					}
+				}
+			}
+		}, {
+			"path": "pages/product/search/result/result",
+			"style": {
+				"navigationBarTitleText": "产品"
+			}
+		}, {
+			"path": "pages/product/search/result/detail",
+			"style": {}
+		}, {
+			"path": "pages/product/swiper_detail",
+			"style": {}
+		}, {
+			"path": "pages/training/training",
+			"style": {
+				"navigationBarTitleText": "培训"
+			}
+		}, {
+			"path": "pages/announcement/announcement",
+			"style": {
+				"navigationBarTitleText": "每日公告",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path" : "pages/announcement/list",
+			"style" : {
+				"navigationBarTitleText": "全部公告",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path" : "pages/announcement/detail",
+			"style" : {}
+		}, {
+			"path": "pages/survey/survey",
+			"style": {
+				"navigationBarTitleText": "调研"
+			}
+		}, {
+			"path": "pages/survey/detail",
+			"style": {
+				"navigationBarTitleText": "调研题目"
+			}
+		}, {
+			"path" : "pages/survey/advice_detail",
+			"style" : {}
+		}, {
+			"path": "pages/forum/forum",
+			"style": {
+				"navigationBarTitleText": "论坛",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"type": "none",
+								"text": "+",
+								"fontWeight": "bold",
+								"width": "auto",
+								"fontSize": "28px",
+								"color": "#fff"
+							}
+						]
+					}
+				},
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/forum/detail",
+			"style": {}
+		},{
+			"path": "pages/forum/create",
+			"style": {}
+		},{
+			"path": "pages/tmpl/tmpl",
+			"style": {}
+		}
+	],
+//	"tabBar": {
+//		"color": "#7a7e83",
+//		"selectedColor": "#0faeff",
+//		"backgroundColor": "#ffffff",
+//		"list": [{
+//			"pagePath": "pages/information/information",
+//			"text": "资讯",
+//			"iconPath": "static/template.png",
+//			"selectedIconPath": "static/templateHL.png"
+//		}, {
+//			"pagePath": "pages/training/training",
+//			"text": "培训",
+//			"iconPath": "static/component.png",
+//			"selectedIconPath": "static/componentHL.png"
+//		}, {
+//			"pagePath": "pages/product/product",
+//			"text": "首页",
+//			"iconPath": "static/img/home.png",
+//			"selectedIconPath": "static/img/homeHL.png"
+//		}, {
+//			"pagePath": "pages/community/community",
+//			"text": "社区",
+//			"iconPath": "static/extui.png",
+//			"selectedIconPath": "static/extuiHL.png"
+//		}, {
+//			"pagePath": "pages/user/user",
+//			"text": "我的",
+//			"iconPath": "static/img/user.png",
+//			"selectedIconPath": "static/img/userHL.png"
+//		}]
+//	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
