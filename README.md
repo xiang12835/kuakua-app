@@ -1,2 +1,2 @@
 # kuakua-app
-include forum, survey, announcement
+including forum, survey, announcement
